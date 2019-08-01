@@ -25,3 +25,36 @@ body {
  align-items: center;
  justify-content: space-between;
 }
+
+.navigation ul {
+ list-style: none;
+ padding: 0;
+ color: white;
+}
+
+.navigation ul li:hoover {
+ cursor: pointer;
+}
+
+.navigation a {
+ text-decoration: none;
+}
+
+main {
+ display: flex;
+ margin-top: 56px;
+ max-height: calc(100vh - 56px);
+}
+
+.leftContent {
+ display: flex;
+ flex-basis: 50%;
+ flex-direction: column;
+ align-items: center;
+ background-color: #282c34;
+ height: calc(100vh - 56px);
+}
+
+.leftContent img {
+ width: 40%;
+}

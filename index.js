@@ -7,7 +7,7 @@ import "./main.css";
 const App = () => {
   const linkImageStyle = {
     backgroundImage:
-      'url(\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png\")'
+      `url(\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png\")`
   };
 
   return (
@@ -25,12 +25,13 @@ const App = () => {
       </nav>
       <main>
         <div className="leftContent">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+          />
           <form>
             <h2 className="formTitle">Add a bookmark</h2>
             <div>
               <label
-                for="linkTitle"
+                htmlFor="linkTitle"
                 className="formLabel">
                 Enter a bookmark name
               </label>
@@ -44,7 +45,7 @@ const App = () => {
             </div>
             <div>
               <label
-                for="linkHref"
+                htmlFor="linkHref"
                 className="formLabel">
                 Enter a bookmark name
               </label>
