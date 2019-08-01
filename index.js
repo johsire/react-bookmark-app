@@ -3,6 +3,11 @@ import ReactDom from "react-dom";
 
 // Create the app
 const App = () => {
+  const linkImageStyle = {
+    backgroundImage:
+      'url(\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png\")'
+  };
+
   return (
     <Fragment>
       <nav className="navigation">
@@ -33,11 +38,26 @@ const App = () => {
                 placeholder="25 characters max"
               />
             </div>
-            <div />
-            <button />
+            <div>
+              <label for="linkHref" className="formLabel">
+                Enter a bookmark name
+              </label>
+              <input
+                type="text"
+                name="linkHref"
+                minLength="7"
+                placeholder="https://example.com/"
+              />
+            </div>
+            <button>Add</button>
           </form>
         </div>
-        <div className="rightContent" />
+        <div className="rightContent">
+          <div>
+            <div style={linkImageStyle} />
+            <div><h2><a href="#">My link!</a></h2></div>
+          </div>
+        </div>
       </main>
     </Fragment>
   );
