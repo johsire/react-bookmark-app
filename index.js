@@ -25,8 +25,7 @@ const App = () => {
       </nav>
       <main>
         <div className="leftContent">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
-          />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" />
           <form>
             <h2 className="formTitle">Add a bookmark</h2>
             <div>
@@ -60,6 +59,76 @@ const App = () => {
           </form>
         </div>
         <div className="rightContent">
+          <div className="linkCard">
+            <div className="linkCardImage"
+              style={linkImageStyle}
+            />
+            <div className="linkCardLink">
+              <h2>
+                <a href="#">My link!</a>
+              </h2>
+            </div>
+          </div>
+          <div className="linkCard">
+            <div className="linkCardImage"
+              style={linkImageStyle}
+            />
+            <div className="linkCardLink">
+              <h2>
+                <a href="#">My link!</a>
+              </h2>
+            </div>
+          </div>
+          <div className="linkCard">
+            <div className="linkCardImage"
+              style={linkImageStyle}
+            />
+            <div className="linkCardLink">
+              <h2>
+                <a href="#">My link!</a>
+              </h2>
+            </div>
+          </div>
+          <div className="linkCard">
+            <div className="linkCardImage"
+              style={linkImageStyle}
+            />
+            <div className="linkCardLink">
+              <h2>
+                <a href="#">My link!</a>
+              </h2>
+            </div>
+          </div>
+          <div className="linkCard">
+            <div className="linkCardImage"
+              style={linkImageStyle}
+            />
+            <div className="linkCardLink">
+              <h2>
+                <a href="#">My link!</a>
+              </h2>
+            </div>
+          </div>
+          <div className="linkCard">
+            <div className="linkCardImage"
+              style={linkImageStyle}
+            />
+            <div className="linkCardLink">
+              <h2>
+                <a href="#">My link!</a>
+              </h2>
+            </div>
+          </div>
+          <div className="linkCard">
+            <div className="linkCardImage"
+              style={linkImageStyle}
+            />
+            <div className="linkCardLink">
+              <h2>
+                <a href="#">My link!</a>
+              </h2>
+            </div>
+          </div>
           <div className="linkCard">
             <div className="linkCardImage"
               style={linkImageStyle}
