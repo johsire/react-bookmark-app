@@ -60,10 +60,11 @@ const App = () => {
           </form>
         </div>
         <div className="rightContent">
-          <div>
-            <div style={linkImageStyle}
-          />
-            <div>
+          <div className="linkCard">
+            <div className="linkCardImage"
+              style={linkImageStyle}
+            />
+            <div className="linkCardLink">
               <h2>
                 <a href="#">My link!</a>
               </h2>
