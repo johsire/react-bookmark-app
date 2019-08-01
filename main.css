@@ -81,6 +81,32 @@ main {
  flex-direction: column;
 }
 
-.leftContent form .formTitle {
+.leftContent form .formTitle, form .formLabel {
  margin: 0;
+ color: whitesmoke;
+}
+
+.leftContent form input {
+ padding: 5px;
+ border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ -ms-border-radius: 5px;
+ -o-border-radius: 5px;
+ border: none;
+ margin-top: 0.2em;
+}
+
+.leftContent form button {
+ margin-top: 1em;
+ padding: 5px;
+ border: none;
+ border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ -ms-border-radius: 5px;
+ -o-border-radius: 5px;
+ cursor: pointer;
+ background: #61dafb;
+ color: black;
 }

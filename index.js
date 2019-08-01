@@ -33,7 +33,7 @@ const App = () => {
               <label
                 htmlFor="linkTitle"
                 className="formLabel">
-                Enter a bookmark name
+                Enter your bookmark name
               </label>
               <input
                 type="text"
@@ -47,7 +47,7 @@ const App = () => {
               <label
                 htmlFor="linkHref"
                 className="formLabel">
-                Enter a bookmark name
+                Enter your bookmark link
               </label>
               <input
                 type="text"
