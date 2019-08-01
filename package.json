@@ -1,0 +1,29 @@
+{
+  "name": "react-bookmark-app",
+  "version": "1.0.0",
+  "description": "Simple React-Hooks Bookmark App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johsire/react-bookmark-app.git"
+  },
+  "keywords": [
+    "react-hooks"
+  ],
+  "author": "Johsire Maina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johsire/react-bookmark-app/issues"
+  },
+  "homepage": "https://github.com/johsire/react-bookmark-app#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
