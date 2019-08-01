@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: "-apple-system",
+  "BlinkMacSystemFont",
+  "Segoe UI",
+  "Roboto",
+  "Oxygen",
+  "Ubuntu",
+  "Cantarell",
+  "Fira Sans",
+  "Droid Sans",
+  "Helvetica Neue",
+  "sans-serif";
+}
+
+.navigation {
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ height: 56px;
+ padding: 0 5%;
+ background: #333;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}

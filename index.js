@@ -1,6 +1,8 @@
 import React, { Fragment } from "react";
 import ReactDom from "react-dom";
 
+import "./main.css";
+
 // Create the app
 const App = () => {
   const linkImageStyle = {
@@ -13,8 +15,8 @@ const App = () => {
       <nav className="navigation">
         <a>
           <img
+            height="40px"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
-            alt="image"
           />
         </a>
         <ul>
@@ -27,7 +29,9 @@ const App = () => {
           <form>
             <h2 className="formTitle">Add a bookmark</h2>
             <div>
-              <label for="linkTitle" className="formLabel">
+              <label
+                for="linkTitle"
+                className="formLabel">
                 Enter a bookmark name
               </label>
               <input
@@ -39,7 +43,9 @@ const App = () => {
               />
             </div>
             <div>
-              <label for="linkHref" className="formLabel">
+              <label
+                for="linkHref"
+                className="formLabel">
                 Enter a bookmark name
               </label>
               <input
@@ -54,8 +60,13 @@ const App = () => {
         </div>
         <div className="rightContent">
           <div>
-            <div style={linkImageStyle} />
-            <div><h2><a href="#">My link!</a></h2></div>
+            <div style={linkImageStyle}
+          />
+            <div>
+              <h2>
+                <a href="#">My link!</a>
+              </h2>
+            </div>
           </div>
         </div>
       </main>
@@ -63,4 +74,7 @@ const App = () => {
   );
 };
 
-ReactDom.render(<App />, document.getElementById("app"));
+ReactDom.render(
+  <App />,
+  document.getElementById("app")
+);
